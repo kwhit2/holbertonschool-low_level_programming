@@ -2,9 +2,8 @@
 
 /**
 * main- void
-* Description: Print whether the number stored
-* in the variable n is positive or negative.
-* computer it is compiled and run on.
+* Description: Prints the alphabet in lowercase,
+* and then in uppercase, followed by a new line.
 * Return:0
 */
 

@@ -6,7 +6,6 @@
 * main- void
 * Description: Prints the last digit of the
 * number stored in the variable n.
-* computer it is compiled and run on.
 * Return:0
 */
 

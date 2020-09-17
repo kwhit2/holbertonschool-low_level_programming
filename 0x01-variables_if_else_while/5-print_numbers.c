@@ -1,13 +1,20 @@
+#include <stdio.h>
+
 /**
 * main- void
-* Description: Print whether the number stored
-* in the variable n is positive or negative.
-* computer it is compiled and run on.
-* Return:0
-*//**
-* main- void
-* Description: Print whether the number stored
-* in the variable n is positive or negative.
-* computer it is compiled and run on.
+* Description: prints all single digit numbers of
+* base 10 starting from 0, followed by a new line.
 * Return:0
 */
+
+int main(void)
+{
+	int i;
+
+	for (i = 0; i < 10; i++)
+		printf("%d", i);
+
+	printf("\n");
+
+	return (0);
+}

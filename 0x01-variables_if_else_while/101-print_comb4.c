@@ -17,6 +17,7 @@ int main(void)
 		{
 			for (d3 = d2 + 1; d3 <= '9'; d3++)
 			{
+
 			putchar(d1);
 			putchar(d2);
 			putchar(d3);
@@ -31,7 +32,7 @@ int main(void)
 			putchar(' ');
 		}
 	}
- }
+}
 }
 	return (0);
 }

@@ -1,8 +1,9 @@
 #include "holberton.h"
 
 /**
-* int print_sign - Function that prints
+* print_sign - Function that prints
 * the sign of a number.
+* @n: digit
 * Return:0
 *
 */

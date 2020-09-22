@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
-* int print_sign - Function that checks
-* for alphabetic character.
+* int print_sign - Function that prints
+* the sign of a number.
 * Return:0
 *
 */

@@ -3,7 +3,7 @@
 /**
 * print_alphabet_x10 - Prints the alphabet,
 * 10x in lowercase, followed by a new line.
-* Return:0
+* Return:void
 *
 */
 

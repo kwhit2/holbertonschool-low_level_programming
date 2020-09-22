@@ -1,11 +1,13 @@
 #include "holberton.h"
 
 /**
-* int _islower - Prints the alphabet,
-* 10x in lowercase, followed by a new line.
-* Return:0 or 1
-*
-*/
+ *_islower - Checks for lowercase character.
+ *@c: lowercase a-z
+ *
+ *Description: Returns 1 if c is lowercase, else 0
+ *section header: Section description
+ *Return: returns int
+ */
 
 int _islower(int c)
 {

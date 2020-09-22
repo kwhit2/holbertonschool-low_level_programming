@@ -1,12 +1,10 @@
 #include "holberton.h"
 
 /**
- *int _isalpha - function that checks for
+ *_isalpha - function that checks for
  * alphabetic character.
  *@c: Alpha characters
- *
  *Description: Returns 1 if c is lowercase, else 0
- *section header: Section description
  *Return: 1 if a letter or 0 if not
  */
 

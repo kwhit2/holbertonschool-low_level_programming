@@ -3,7 +3,7 @@
 /**
 * main- void
 * Description: Prints all possible
-* different combinations of two digits.
+* different combinations of two, two digits.
 * Return:0
 */
 

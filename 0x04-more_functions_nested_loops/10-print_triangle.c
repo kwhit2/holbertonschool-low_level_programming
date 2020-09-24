@@ -11,25 +11,22 @@
 
 void print_triangle(int size)
 {
-	int a;
+	int row;
+	int col;
 
-	for (a = 1; a <= 100; a++)
+	for (row = 1; row <= size; row++)
 	{
-		if (a % 3 == 0)
+		for (col = 0; col < size; col++)
 		{
-			printf("Fizz");
+		if ((col + row) < size)
+			_putchar(' ');
+		if ((col + row) >= size)
+			_putchar('#');
 		}
-		if (a % 5 == 0)
-		{
-			printf("Buzz");
-		}
-		if (a % 3 != 0 && a % 5 != 0)
-		{
-			printf("%d", a);
-		}
-		if (a != 100)
-			printf(" ");
+	_putchar('\n');
 	}
-	putchar('\n');
-	return (0);
+	if (size <= 0)
+	{
+		_putchar('\n');
+	}
 }

@@ -3,7 +3,7 @@
 /**
  * _isupper - Checks for Uppercase character.
  *@c: Uppercase A-Z
- *
+ *@:
  *Description: Returns (1) if c is a Uppercase,
  *else return (0)
  *Return: Returns (1) if c is uppercase,

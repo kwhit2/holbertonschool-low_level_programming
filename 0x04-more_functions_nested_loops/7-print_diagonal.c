@@ -14,19 +14,17 @@ void print_diagonal(int n)
 {
 	int ln, spc;
 
-	if (n > 0)
-	{
 	for (ln = 0; ln < n; ln++)
 	{
-	for (spc = 0; spc < ln; spc++)
-		_putchar(' ');
-		_putchar('\\');
-
-		if (ln == n - 1)
-		continue;
-
-	_putchar('\n');
-	}
+		if (n > 1)
+		{
+			for (spc = 0; spc < ln; spc++)
+			{
+				_putchar(' ');
+			}
+			_putchar('\\');
+			_putchar('\n');
+		}
 	}
 	_putchar('\n');
 }

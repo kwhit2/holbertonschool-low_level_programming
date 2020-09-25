@@ -6,7 +6,7 @@
 * main - finds and prints the largest prime
 * factor of the number 612852475143,
 * followed by a new line.
-* @n: number
+* @void:
 * Description - finds and prints the largest prime
 * factor of the number 612852475143,
 * followed by a new line.

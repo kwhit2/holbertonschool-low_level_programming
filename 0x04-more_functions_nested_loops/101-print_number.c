@@ -1,12 +1,10 @@
 #include "holberton.h"
-
 /**
 * print_number - Print an integer
 * the hard way.
 *@n: integer
 * Return: 0
 */
-
 void print_number(int n)
 {
 	char a;

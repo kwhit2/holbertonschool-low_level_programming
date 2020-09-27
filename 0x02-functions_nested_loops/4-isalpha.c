@@ -10,7 +10,7 @@
 
 int _isalpha(int c)
 {
-	if (c >= 65 && c <= 122)
+	if (c >= 65 && c <= 122) /*left is wrong should be 65-90 || 97-122*/
 	{
 	return (1);
 	}

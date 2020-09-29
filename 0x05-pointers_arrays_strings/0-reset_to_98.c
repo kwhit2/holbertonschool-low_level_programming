@@ -6,7 +6,7 @@
  * @n: number 98
  * Description: Function that takes a pointer to an int
  * as parameter and updates the value it points to to 98.
- * Return: 0
+ * Return: 98
  *
  */
 

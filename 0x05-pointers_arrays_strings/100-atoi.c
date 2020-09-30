@@ -11,20 +11,27 @@
 
 int _atoi(char *s)
 {
-	int res;
-	int i;
+	short boo; /** boolean */
+	int i, min, res; /** i, minus, result */
 
-	res = 0;
+	i = min = res = boo = 0;
+	min = -1;
 
-	for (i = 0; s[i] != '\0'; i++)
+	while (s[i] != '\0')
 	{
-		if (i < 0)
-		{
-			i *= -1;
-			_putchar('-');
-		}
+	if (s[i] == '-')
+	min *= -1;
 
-	res = res * 10 + s[i] - '0';
+	if (s[i] >= '0' && s[i] <= '9')
+	{
+	res *= 10;
+	res -= (s[i] - '0');
+	boo = 1;
 	}
-	return (res);
+	else if (boo == 1)
+	break;
+	i++;
+	}
+	res *= min;
+	return (res); /** return result */
 }

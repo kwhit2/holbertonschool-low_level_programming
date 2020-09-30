@@ -11,10 +11,10 @@
 
 int _atoi(char *s)
 {
-	unsigned int a;
+	short boo; /** boolean */
 	int i, min, res; /** i, minus, result */
 
-	i = min = res = a = 0;
+	i = min = res = boo = 0;
 	min = -1;
 
 	while (s[i] != '\0')
@@ -26,12 +26,12 @@ int _atoi(char *s)
 	{
 	res *= 10;
 	res -= (s[i] - '0');
-	a = 1;
+	boo = 1;
 	}
-	else if (a == 1)
+	else if (boo == 1)
 	break;
 	i++;
 	}
 	res *= min;
-	return (res); /** return result */
+return (res); /** return result */
 }

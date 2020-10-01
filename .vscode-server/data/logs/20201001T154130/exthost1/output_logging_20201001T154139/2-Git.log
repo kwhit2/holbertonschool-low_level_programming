@@ -33,3 +33,22 @@ Open repository: /home/vagrant/holbertonschool-low_level_programming
 > git for-each-ref --sort -committerdate --format %(refname) %(objectname)
 > git remote --verbose
 > git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x06-pointers_arrays_strings/0-strcat.c
+> git cat-file -s 2f5756a4e5ae4837a8a68ae9b33f0be4273b4fc7
+> git show --textconv :0x06-pointers_arrays_strings/0-strcat.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template

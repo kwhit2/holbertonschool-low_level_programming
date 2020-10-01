@@ -1,0 +1,1432 @@
+Looking for git in: git
+Using git 1.9.1 from git
+> git rev-parse --git-dir
+Open repository: /home/vagrant/holbertonschool-low_level_programming
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :0x05-pointers_arrays_strings/README.md
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/README.md
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :0x05-pointers_arrays_strings/0-reset_to_98.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :0x05-pointers_arrays_strings/holberton.h
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :0x05-pointers_arrays_strings/_putchar.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/_putchar.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/holberton.h
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/_putchar.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/_putchar.c
+> git show --textconv :0x05-pointers_arrays_strings/0-reset_to_98.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/vagrant/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/0-isuper
+> git show --textconv :0x04-more_functions_nested_loops/0-isupper.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/0-isupper.c
+> git cat-file -s 308a6e7c7e254a6df0ca32e8de460c29207c1548
+> git show --textconv :0x05-pointers_arrays_strings/0-reset_to_98.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c
+> git check-ignore -v -z --stdin
+> git show --textconv :0x04-more_functions_nested_loops/101-main.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/101-main.c
+> git cat-file -s 707f9fd73d9c9edd925871a21734ab47e9dc9888
+> git show --textconv :0x04-more_functions_nested_loops/100-prime_factor.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/100-prime_factor.c
+> git cat-file -s 5deb9224a02f0e5f9281f83343a134cb4f5d5007
+> git show --textconv :0x05-pointers_arrays_strings/0-reset_to_98.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/0-main.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/0-main.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/0-reset_to_98.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/holberton.h
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/_putchar.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/_putchar.c
+> git show --textconv :0x05-pointers_arrays_strings/holberton.h
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+> git show --textconv :0x05-pointers_arrays_strings/0-main.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/0-main.c
+> git show --textconv :0x05-pointers_arrays_strings/holberton.h
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+> git show --textconv :0x05-pointers_arrays_strings/1-swap.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/1-swap.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :0x05-pointers_arrays_strings/1-main.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/1-main.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/1-swap.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/1-swap.c
+> git show --textconv :0x05-pointers_arrays_strings/1-main.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/1-main.c
+> git show --textconv :0x05-pointers_arrays_strings/1-swap.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/1-swap.c
+> git show --textconv :0x05-pointers_arrays_strings/0-reset_to_98.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c
+> git show --textconv :0x05-pointers_arrays_strings/1-swap.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/1-swap.c
+> git show --textconv :0x05-pointers_arrays_strings/holberton.h
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+> git show --textconv :0x05-pointers_arrays_strings/1-swap.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/1-swap.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/1-main.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/1-main.c
+> git show --textconv :0x05-pointers_arrays_strings/1-swap.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/1-swap.c
+> git show --textconv :0x05-pointers_arrays_strings/1-main.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/1-main.c
+> git show --textconv :0x05-pointers_arrays_strings/1-swap.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/1-swap.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/1-main.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/1-main.c
+> git show --textconv :0x05-pointers_arrays_strings/1-swap.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/1-swap.c
+> git show --textconv :0x05-pointers_arrays_strings/1-main.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/1-main.c
+> git show --textconv :0x05-pointers_arrays_strings/1-swap.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/1-swap.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/1-swap.c
+> git cat-file -s efeb45f1e3a2d67a19b4f1b4413449e0087e780e
+> git show --textconv :0x05-pointers_arrays_strings/1-swap.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/1-swap.c
+> git cat-file -s efeb45f1e3a2d67a19b4f1b4413449e0087e780e
+> git show --textconv :0x05-pointers_arrays_strings/1-swap.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/1-swap.c
+> git cat-file -s efeb45f1e3a2d67a19b4f1b4413449e0087e780e
+> git show --textconv :0x05-pointers_arrays_strings/1-swap.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/1-main.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/1-main.c
+> git cat-file -s c7d6dae292408eb9232095f2db2dac9ed965126a
+> git show --textconv :0x05-pointers_arrays_strings/1-swap.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/1-swap.c
+> git cat-file -s efeb45f1e3a2d67a19b4f1b4413449e0087e780e
+> git show --textconv :0x05-pointers_arrays_strings/0-reset_to_98.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c
+> git cat-file -s 6bfcacb3e1be829b04d67b3f71a1d4a536053c72
+> git show --textconv :0x05-pointers_arrays_strings/1-swap.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/1-swap.c
+> git cat-file -s efeb45f1e3a2d67a19b4f1b4413449e0087e780e
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/1-swap.c
+> git cat-file -s 85c0f09e5d3613a876e6d625db1f0a97b20c2dfa
+> git show --textconv :0x05-pointers_arrays_strings/1-swap.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/1-swap.c
+> git cat-file -s 85c0f09e5d3613a876e6d625db1f0a97b20c2dfa
+> git show --textconv :0x05-pointers_arrays_strings/1-swap.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/1-swap.c
+> git cat-file -s 85c0f09e5d3613a876e6d625db1f0a97b20c2dfa
+> git show --textconv :0x05-pointers_arrays_strings/1-swap.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/0-reset_to_98.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c
+> git cat-file -s 6bfcacb3e1be829b04d67b3f71a1d4a536053c72
+> git check-ignore -v -z --stdin
+> git show --textconv :0x04-more_functions_nested_loops/100-prime_factor.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/100-prime_factor.c
+> git cat-file -s 5deb9224a02f0e5f9281f83343a134cb4f5d5007
+> git show --textconv :0x04-more_functions_nested_loops/100-prime_factor.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/100-prime_factor.c
+> git cat-file -s 5deb9224a02f0e5f9281f83343a134cb4f5d5007
+> git show --textconv :0x05-pointers_arrays_strings/0-reset_to_98.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/0-reset_to_98.c
+> git cat-file -s 6bfcacb3e1be829b04d67b3f71a1d4a536053c72
+> git check-ignore -v -z --stdin
+> git show --textconv :0x05-pointers_arrays_strings/2-strlen.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/2-strlen.c
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :0x05-pointers_arrays_strings/1-swap.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/1-swap.c
+> git cat-file -s 85c0f09e5d3613a876e6d625db1f0a97b20c2dfa
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :0x05-pointers_arrays_strings/2-main.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/2-main.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/holberton.h
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+> git cat-file -s f46cba87c3e1c2d7e1b0564fe938eec9699c5a04
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/2-main.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/2-main.c
+> git show --textconv :0x05-pointers_arrays_strings/holberton.h
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+> git cat-file -s f46cba87c3e1c2d7e1b0564fe938eec9699c5a04
+> git show --textconv :0x05-pointers_arrays_strings/2-strlen.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/2-strlen.c
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :0x05-pointers_arrays_strings/1-swap.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/1-swap.c
+> git cat-file -s 85c0f09e5d3613a876e6d625db1f0a97b20c2dfa
+> git show --textconv :0x05-pointers_arrays_strings/2-strlen.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/2-strlen.c
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :0x05-pointers_arrays_strings/holberton.h
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+> git cat-file -s f46cba87c3e1c2d7e1b0564fe938eec9699c5a04
+> git show --textconv :0x05-pointers_arrays_strings/2-strlen.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/2-strlen.c
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/2-strlen.c
+> git cat-file -s 27f9d0d42722dc88e7f7d9763f7600223a4a7fb6
+> git show --textconv :0x05-pointers_arrays_strings/2-strlen.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/2-strlen.c
+> git cat-file -s 27f9d0d42722dc88e7f7d9763f7600223a4a7fb6
+> git show --textconv :0x05-pointers_arrays_strings/2-strlen.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/2-strlen.c
+> git rev-parse master
+> git cat-file -s 27f9d0d42722dc88e7f7d9763f7600223a4a7fb6
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/2-strlen.c
+> git show --textconv :0x05-pointers_arrays_strings/3-puts.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/3-puts.c
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :0x05-pointers_arrays_strings/2-strlen.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/2-strlen.c
+> git cat-file -s 27f9d0d42722dc88e7f7d9763f7600223a4a7fb6
+> git show --textconv :0x05-pointers_arrays_strings/3-puts.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/3-puts.c
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :0x05-pointers_arrays_strings/holberton.h
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+> git cat-file -s 6aab7b6f93decff19e95dfa01d0ac084ee500e64
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/3-puts.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/3-puts.c
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :0x05-pointers_arrays_strings/holberton.h
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+> git cat-file -s 6aab7b6f93decff19e95dfa01d0ac084ee500e64
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+> git cat-file -s a4aa8a786f266aa4a81dbd70c5dcf1c7b6c53aef
+> git show --textconv :0x05-pointers_arrays_strings/holberton.h
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+> git cat-file -s a4aa8a786f266aa4a81dbd70c5dcf1c7b6c53aef
+> git show --textconv :0x05-pointers_arrays_strings/holberton.h
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+> git cat-file -s a4aa8a786f266aa4a81dbd70c5dcf1c7b6c53aef
+> git show --textconv :0x05-pointers_arrays_strings/holberton.h
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/3-puts.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/3-puts.c
+> git cat-file -s aed160dd95a88ef6b7085c28af3f425f4c13bc9a
+> git show --textconv :0x05-pointers_arrays_strings/holberton.h
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+> git cat-file -s a4aa8a786f266aa4a81dbd70c5dcf1c7b6c53aef
+> git show --textconv :0x05-pointers_arrays_strings/2-strlen.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/2-strlen.c
+> git cat-file -s 27f9d0d42722dc88e7f7d9763f7600223a4a7fb6
+> git show --textconv :0x05-pointers_arrays_strings/3-puts.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/3-puts.c
+> git cat-file -s aed160dd95a88ef6b7085c28af3f425f4c13bc9a
+> git show --textconv :0x05-pointers_arrays_strings/2-strlen.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/2-strlen.c
+> git cat-file -s 27f9d0d42722dc88e7f7d9763f7600223a4a7fb6
+> git show --textconv :0x05-pointers_arrays_strings/3-puts.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/3-puts.c
+> git cat-file -s aed160dd95a88ef6b7085c28af3f425f4c13bc9a
+> git show --textconv :0x05-pointers_arrays_strings/2-strlen.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/2-strlen.c
+> git cat-file -s 27f9d0d42722dc88e7f7d9763f7600223a4a7fb6
+> git show --textconv :0x05-pointers_arrays_strings/3-puts.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/3-puts.c
+> git cat-file -s aed160dd95a88ef6b7085c28af3f425f4c13bc9a
+> git show --textconv :0x05-pointers_arrays_strings/2-strlen.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/2-strlen.c
+> git cat-file -s 27f9d0d42722dc88e7f7d9763f7600223a4a7fb6
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :0x05-pointers_arrays_strings/holberton.h
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+> git cat-file -s a4aa8a786f266aa4a81dbd70c5dcf1c7b6c53aef
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/3-puts.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/3-puts.c
+> git cat-file -s aed160dd95a88ef6b7085c28af3f425f4c13bc9a
+> git show --textconv :0x05-pointers_arrays_strings/holberton.h
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+> git cat-file -s a4aa8a786f266aa4a81dbd70c5dcf1c7b6c53aef
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/4-print_rev.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/4-print_rev.c
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :0x05-pointers_arrays_strings/3-puts.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/3-puts.c
+> git cat-file -s aed160dd95a88ef6b7085c28af3f425f4c13bc9a
+> git show --textconv :0x05-pointers_arrays_strings/2-strlen.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/2-strlen.c
+> git cat-file -s 27f9d0d42722dc88e7f7d9763f7600223a4a7fb6
+> git show --textconv :0x05-pointers_arrays_strings/holberton.h
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+> git cat-file -s a4aa8a786f266aa4a81dbd70c5dcf1c7b6c53aef
+> git show --textconv :0x05-pointers_arrays_strings/4-print_rev.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/4-print_rev.c
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :0x05-pointers_arrays_strings/holberton.h
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+> git cat-file -s a4aa8a786f266aa4a81dbd70c5dcf1c7b6c53aef
+> git show --textconv :0x05-pointers_arrays_strings/4-print_rev.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/4-print_rev.c
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/4-print_rev.c
+> git cat-file -s db1d2930b5881e032c3694cc0570964c85fae56f
+> git show --textconv :0x05-pointers_arrays_strings/4-print_rev.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/4-print_rev.c
+> git cat-file -s db1d2930b5881e032c3694cc0570964c85fae56f
+> git show --textconv :0x05-pointers_arrays_strings/4-print_rev.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/4-print_rev.c
+> git cat-file -s db1d2930b5881e032c3694cc0570964c85fae56f
+> git show --textconv :0x05-pointers_arrays_strings/4-print_rev.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/holberton.h
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+> git cat-file -s 96462a7bbc6a4a0a87cc4ceda118249c010df43d
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :0x05-pointers_arrays_strings/5-rev_string.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/5-rev_string.c
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :0x05-pointers_arrays_strings/4-print_rev.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/4-print_rev.c
+> git cat-file -s db1d2930b5881e032c3694cc0570964c85fae56f
+> git show --textconv :0x05-pointers_arrays_strings/5-rev_string.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/5-rev_string.c
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :0x05-pointers_arrays_strings/holberton.h
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+> git cat-file -s 96462a7bbc6a4a0a87cc4ceda118249c010df43d
+> git show --textconv :0x05-pointers_arrays_strings/5-rev_string.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/5-rev_string.c
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git show --textconv :0x05-pointers_arrays_strings/5-main.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/5-main.c
+> git show --textconv :0x05-pointers_arrays_strings/5-rev_string.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/5-rev_string.c
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/5-rev_string.c
+> git cat-file -s bb24eb133261c18286741c3d7ddfc34740974712
+> git show --textconv :0x05-pointers_arrays_strings/5-rev_string.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/5-rev_string.c
+> git cat-file -s bb24eb133261c18286741c3d7ddfc34740974712
+> git show --textconv :0x05-pointers_arrays_strings/5-rev_string.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/5-rev_string.c
+> git cat-file -s bb24eb133261c18286741c3d7ddfc34740974712
+> git show --textconv :0x05-pointers_arrays_strings/5-rev_string.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/3-puts.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/3-puts.c
+> git cat-file -s aed160dd95a88ef6b7085c28af3f425f4c13bc9a
+> git show --textconv :0x05-pointers_arrays_strings/6-puts2.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/6-puts2.c
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/holberton.h
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+> git cat-file -s a059591c5d699eed1d71cca59cf47fa7cea888cd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/6-puts2.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/6-puts2.c
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/6-puts2.c
+> git cat-file -s f39a1a001488ca4ebdea2075f8ef3c24a765827c
+> git show --textconv :0x05-pointers_arrays_strings/6-puts2.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/6-puts2.c
+> git cat-file -s f39a1a001488ca4ebdea2075f8ef3c24a765827c
+> git show --textconv :0x05-pointers_arrays_strings/6-puts2.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/6-puts2.c
+> git cat-file -s f39a1a001488ca4ebdea2075f8ef3c24a765827c
+> git show --textconv :0x05-pointers_arrays_strings/6-puts2.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/3-puts.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/3-puts.c
+> git cat-file -s aed160dd95a88ef6b7085c28af3f425f4c13bc9a
+> git show --textconv :0x05-pointers_arrays_strings/6-puts2.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/6-puts2.c
+> git cat-file -s f39a1a001488ca4ebdea2075f8ef3c24a765827c
+> git show --textconv :0x05-pointers_arrays_strings/3-puts.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/3-puts.c
+> git cat-file -s aed160dd95a88ef6b7085c28af3f425f4c13bc9a
+> git show --textconv :0x05-pointers_arrays_strings/4-print_rev.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/4-print_rev.c
+> git cat-file -s db1d2930b5881e032c3694cc0570964c85fae56f
+> git show --textconv :0x05-pointers_arrays_strings/9-strcpy.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/9-strcpy.c
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/holberton.h
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+> git cat-file -s cc488651c09dfb3812c6334bdee1f7f839ac1eb0
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/9-strcpy.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/9-strcpy.c
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/holberton.h
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+> git cat-file -s cc488651c09dfb3812c6334bdee1f7f839ac1eb0
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/9-strcpy.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/9-strcpy.c
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/9-main.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/9-main.c
+> git show --textconv :0x05-pointers_arrays_strings/9-strcpy.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/9-strcpy.c
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/9-main.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/9-main.c
+> git show --textconv :0x05-pointers_arrays_strings/9-strcpy.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/9-strcpy.c
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/9-strcpy.c
+> git cat-file -s 2074325f87f0525d9e1f26c9ce2d1feb5e9b202f
+> git show --textconv :0x05-pointers_arrays_strings/9-strcpy.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/9-strcpy.c
+> git cat-file -s 2074325f87f0525d9e1f26c9ce2d1feb5e9b202f
+> git show --textconv :0x05-pointers_arrays_strings/9-strcpy.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/9-strcpy.c
+> git cat-file -s 2074325f87f0525d9e1f26c9ce2d1feb5e9b202f
+> git show --textconv :0x05-pointers_arrays_strings/9-strcpy.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x05-pointers_arrays_strings/2-strlen.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/2-strlen.c
+> git cat-file -s 27f9d0d42722dc88e7f7d9763f7600223a4a7fb6
+> git show --textconv :0x05-pointers_arrays_strings/6-puts2.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/6-puts2.c
+> git cat-file -s f39a1a001488ca4ebdea2075f8ef3c24a765827c
+> git show --textconv :0x05-pointers_arrays_strings/2-strlen.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/2-strlen.c
+> git cat-file -s 27f9d0d42722dc88e7f7d9763f7600223a4a7fb6
+> git show --textconv :0x05-pointers_arrays_strings/1-swap.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/1-swap.c
+> git cat-file -s 85c0f09e5d3613a876e6d625db1f0a97b20c2dfa

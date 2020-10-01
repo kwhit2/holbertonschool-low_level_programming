@@ -1,0 +1,20 @@
+[2020-09-24 22:31:41.462] [exthost] [info] extension host started
+[2020-09-24 22:31:41.656] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-09-24 22:31:41.657] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/58bb7b2331731bf72587010e943852e13e6fd3cf/extensions/debug-auto-launch/dist/extension
+[2020-09-24 22:31:41.666] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-09-24 22:31:41.666] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/58bb7b2331731bf72587010e943852e13e6fd3cf/extensions/emmet/dist/node/emmetNodeMain
+[2020-09-24 22:31:41.714] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-09-24 22:31:41.714] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/58bb7b2331731bf72587010e943852e13e6fd3cf/extensions/git/dist/main
+[2020-09-24 22:31:41.886] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-09-24 22:31:41.886] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/58bb7b2331731bf72587010e943852e13e6fd3cf/extensions/merge-conflict/dist/mergeConflictMain
+[2020-09-24 22:31:41.894] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-09-24 22:31:41.895] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/58bb7b2331731bf72587010e943852e13e6fd3cf/extensions/search-result/dist/extension.js
+[2020-09-24 22:31:41.918] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2020-09-24 22:31:41.918] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/58bb7b2331731bf72587010e943852e13e6fd3cf/extensions/configuration-editing/dist/configurationEditingMain
+[2020-09-24 22:31:41.935] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-09-24 22:31:41.936] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/58bb7b2331731bf72587010e943852e13e6fd3cf/extensions/json-language-features/client/dist/node/jsonClientMain
+[2020-09-24 22:31:42.035] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-09-24 22:31:42.036] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/58bb7b2331731bf72587010e943852e13e6fd3cf/extensions/typescript-language-features/dist/extension
+[2020-09-24 22:31:42.821] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-09-24 22:31:42.823] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/58bb7b2331731bf72587010e943852e13e6fd3cf/extensions/github/dist/extension.js
+[2020-09-24 22:31:43.249] [exthost] [info] eager extensions activated

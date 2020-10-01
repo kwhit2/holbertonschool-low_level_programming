@@ -1,0 +1,60 @@
+[2020-09-29 23:12:30.176] [exthost] [info] extension host started
+[2020-09-29 23:12:30.345] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools {"startup":false,"extensionId":{"value":"ms-vscode.cpptools","_lower":"ms-vscode.cpptools"},"activationEvent":"onLanguage:c"}
+[2020-09-29 23:12:30.346] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/extensions/ms-vscode.cpptools-1.0.1/dist/main
+[2020-09-29 23:12:30.525] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-09-29 23:12:30.525] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/e5e9e69aed6e1984f7499b7af85b3d05f9a6883a/extensions/debug-auto-launch/dist/extension
+[2020-09-29 23:12:30.531] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-09-29 23:12:30.532] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/e5e9e69aed6e1984f7499b7af85b3d05f9a6883a/extensions/emmet/dist/node/emmetNodeMain
+[2020-09-29 23:12:30.590] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-09-29 23:12:30.590] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/e5e9e69aed6e1984f7499b7af85b3d05f9a6883a/extensions/git/dist/main
+[2020-09-29 23:12:30.843] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-09-29 23:12:30.849] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/e5e9e69aed6e1984f7499b7af85b3d05f9a6883a/extensions/merge-conflict/dist/mergeConflictMain
+[2020-09-29 23:12:30.867] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-09-29 23:12:30.867] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/e5e9e69aed6e1984f7499b7af85b3d05f9a6883a/extensions/search-result/dist/extension.js
+[2020-09-29 23:12:30.895] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2020-09-29 23:12:30.895] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/e5e9e69aed6e1984f7499b7af85b3d05f9a6883a/extensions/configuration-editing/dist/configurationEditingMain
+[2020-09-29 23:12:30.907] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-09-29 23:12:30.907] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/e5e9e69aed6e1984f7499b7af85b3d05f9a6883a/extensions/json-language-features/client/dist/node/jsonClientMain
+[2020-09-29 23:12:30.968] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-09-29 23:12:30.968] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/e5e9e69aed6e1984f7499b7af85b3d05f9a6883a/extensions/typescript-language-features/dist/extension
+[2020-09-29 23:12:31.507] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-09-29 23:12:31.508] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/e5e9e69aed6e1984f7499b7af85b3d05f9a6883a/extensions/github/dist/extension.js
+[2020-09-29 23:12:31.737] [exthost] [info] eager extensions activated
+[2020-09-30 14:23:52.608] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2020-09-30 14:23:52.608] [exthost] [error] undefined
+[2020-09-30 19:25:01.737] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2020-09-30 19:25:01.737] [exthost] [error] undefined
+[2020-09-30 19:31:58.087] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2020-09-30 19:31:58.087] [exthost] [error] undefined
+[2020-09-30 19:32:11.531] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2020-09-30 19:32:11.532] [exthost] [error] undefined
+[2020-09-30 19:32:17.773] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2020-09-30 19:32:17.773] [exthost] [error] undefined
+[2020-09-30 19:32:28.109] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2020-09-30 19:32:28.109] [exthost] [error] undefined
+[2020-09-30 19:32:32.911] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2020-09-30 19:32:32.911] [exthost] [error] undefined
+[2020-09-30 19:35:26.320] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2020-09-30 19:35:26.320] [exthost] [error] undefined
+[2020-09-30 19:41:28.768] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:markdown"}
+[2020-09-30 19:41:28.771] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/e5e9e69aed6e1984f7499b7af85b3d05f9a6883a/extensions/extension-editing/dist/extensionEditingMain
+[2020-09-30 19:41:28.828] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features {"startup":false,"extensionId":{"value":"vscode.markdown-language-features","_lower":"vscode.markdown-language-features"},"activationEvent":"onLanguage:markdown"}
+[2020-09-30 19:41:28.828] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/e5e9e69aed6e1984f7499b7af85b3d05f9a6883a/extensions/markdown-language-features/dist/extension
+[2020-09-30 19:43:27.440] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2020-09-30 19:43:27.440] [exthost] [error] undefined
+[2020-09-30 19:47:38.864] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2020-09-30 19:47:38.865] [exthost] [error] undefined
+[2020-09-30 19:51:43.028] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2020-09-30 19:51:43.028] [exthost] [error] undefined
+[2020-09-30 19:53:42.475] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2020-09-30 19:53:42.476] [exthost] [error] undefined
+[2020-09-30 19:53:59.704] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2020-09-30 19:53:59.704] [exthost] [error] undefined
+[2020-09-30 19:55:07.471] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2020-09-30 19:55:07.471] [exthost] [error] undefined
+[2020-09-30 19:55:13.135] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2020-09-30 19:55:13.135] [exthost] [error] undefined
+[2020-09-30 19:57:03.690] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2020-09-30 19:57:03.690] [exthost] [error] undefined
+[2020-09-30 20:05:04.279] [exthost] [error] [ms-vscode.cpptools] provider FAILED
+[2020-09-30 20:05:04.279] [exthost] [error] undefined

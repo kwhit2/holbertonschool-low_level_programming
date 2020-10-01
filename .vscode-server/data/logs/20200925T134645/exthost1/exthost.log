@@ -1,0 +1,28 @@
+[2020-09-25 13:46:56.425] [exthost] [info] extension host started
+[2020-09-25 13:46:57.380] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:json"}
+[2020-09-25 13:46:57.381] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/e5e9e69aed6e1984f7499b7af85b3d05f9a6883a/extensions/configuration-editing/dist/configurationEditingMain
+[2020-09-25 13:46:57.396] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:json"}
+[2020-09-25 13:46:57.397] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/e5e9e69aed6e1984f7499b7af85b3d05f9a6883a/extensions/extension-editing/dist/extensionEditingMain
+[2020-09-25 13:46:57.505] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:json"}
+[2020-09-25 13:46:57.505] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/e5e9e69aed6e1984f7499b7af85b3d05f9a6883a/extensions/json-language-features/client/dist/node/jsonClientMain
+[2020-09-25 13:46:57.691] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onLanguage:json"}
+[2020-09-25 13:46:57.691] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/e5e9e69aed6e1984f7499b7af85b3d05f9a6883a/extensions/ms-vscode.js-debug/src/extension.js
+[2020-09-25 13:46:59.156] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"onLanguage:json"}
+[2020-09-25 13:46:59.156] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/e5e9e69aed6e1984f7499b7af85b3d05f9a6883a/extensions/npm/dist/npmMain
+[2020-09-25 13:46:59.224] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:typescript"}
+[2020-09-25 13:46:59.225] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/e5e9e69aed6e1984f7499b7af85b3d05f9a6883a/extensions/typescript-language-features/dist/extension
+[2020-09-25 13:46:59.555] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-09-25 13:46:59.556] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/e5e9e69aed6e1984f7499b7af85b3d05f9a6883a/extensions/debug-auto-launch/dist/extension
+[2020-09-25 13:46:59.562] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-09-25 13:46:59.562] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/e5e9e69aed6e1984f7499b7af85b3d05f9a6883a/extensions/emmet/dist/node/emmetNodeMain
+[2020-09-25 13:46:59.633] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-09-25 13:46:59.634] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/e5e9e69aed6e1984f7499b7af85b3d05f9a6883a/extensions/git/dist/main
+[2020-09-25 13:46:59.781] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-09-25 13:46:59.782] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/e5e9e69aed6e1984f7499b7af85b3d05f9a6883a/extensions/merge-conflict/dist/mergeConflictMain
+[2020-09-25 13:46:59.793] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-09-25 13:46:59.793] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/e5e9e69aed6e1984f7499b7af85b3d05f9a6883a/extensions/search-result/dist/extension.js
+[2020-09-25 13:47:00.355] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2020-09-25 13:47:00.355] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/bin/e5e9e69aed6e1984f7499b7af85b3d05f9a6883a/extensions/github/dist/extension.js
+[2020-09-25 13:47:00.897] [exthost] [info] eager extensions activated
+[2020-09-25 13:48:19.397] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools {"startup":false,"extensionId":{"value":"ms-vscode.cpptools","_lower":"ms-vscode.cpptools"},"activationEvent":"onLanguage:c"}
+[2020-09-25 13:48:19.398] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vagrant/.vscode-server/extensions/ms-vscode.cpptools-1.0.1/dist/main

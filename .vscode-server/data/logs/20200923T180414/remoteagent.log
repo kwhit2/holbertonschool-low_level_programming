@@ -74,3 +74,6 @@
 [2020-09-24 22:31:37.978] [remoteagent] [info] [127.0.0.1][5f0e2600][ExtensionHostConnection] New connection established.
 [2020-09-24 22:31:37.987] [remoteagent] [info] [127.0.0.1][5f0e2600][ExtensionHostConnection] <12842> Launched Extension Host Process.
 [2020-09-24 22:36:37.728] [remoteagent] [info] New EH opened, aborting shutdown
+[2020-09-24 22:37:56.679] [remoteagent] [info] [127.0.0.1][774d41c0][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-09-24 22:37:57.732] [remoteagent] [info] [127.0.0.1][5f0e2600][ExtensionHostConnection] <12842> Extension Host Process exited with code: 0, signal: null.
+[2020-09-24 22:37:57.732] [remoteagent] [info] Last EH closed, waiting before shutting down

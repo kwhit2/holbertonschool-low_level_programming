@@ -1,0 +1,351 @@
+Looking for git in: git
+Using git 1.9.1 from git
+> git rev-parse --git-dir
+Open repository: /home/vagrant/holbertonschool-low_level_programming
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :0x04-more_functions_nested_loops/100-prime_factor.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/100-prime_factor.c
+> git cat-file -s 6920afa4a3aa57157715ff391713bb94c4d8d69e
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x04-more_functions_nested_loops/holberton.h
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/holberton.h
+> git cat-file -s 976915b9c8516f01bce5fce1b96aa7961723d059
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/holberton.h
+> git cat-file -s 976915b9c8516f01bce5fce1b96aa7961723d059
+> git config --get commit.template
+> git show --textconv :0x04-more_functions_nested_loops/holberton.h
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/holberton.h
+> git config --get commit.template
+> git cat-file -s 976915b9c8516f01bce5fce1b96aa7961723d059
+> git show --textconv :0x04-more_functions_nested_loops/holberton.h
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/holberton.h
+> git cat-file -s 976915b9c8516f01bce5fce1b96aa7961723d059
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git show --textconv :0x04-more_functions_nested_loops/holberton.h
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x04-more_functions_nested_loops/100-prime_factor.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/100-prime_factor.c
+> git cat-file -s 64c7bde1f006fb8720eee20328fb573ecf715919
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/100-prime_factor.c
+> git cat-file -s 64c7bde1f006fb8720eee20328fb573ecf715919
+> git show --textconv :0x04-more_functions_nested_loops/100-prime_factor.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/100-prime_factor.c
+> git cat-file -s 5deb9224a02f0e5f9281f83343a134cb4f5d5007
+> git show --textconv :0x04-more_functions_nested_loops/100-prime_factor.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/100-prime_factor.c
+> git cat-file -s 5deb9224a02f0e5f9281f83343a134cb4f5d5007
+> git show --textconv :0x04-more_functions_nested_loops/100-prime_factor.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/100-prime_factor.c
+> git cat-file -s 5deb9224a02f0e5f9281f83343a134cb4f5d5007
+> git show --textconv :0x04-more_functions_nested_loops/100-prime_factor.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x04-more_functions_nested_loops/101-print_number.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/101-print_number.c
+> git cat-file -s 945123acc1d3aa7e51790b8d69125102fd5f1ace
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/101-print_number.c
+> git cat-file -s 6c93c95e4f8eddbd973f3abf77f84f8c48ed9dff
+> git show --textconv :0x04-more_functions_nested_loops/101-print_number.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/101-print_number.c
+> git cat-file -s 6c93c95e4f8eddbd973f3abf77f84f8c48ed9dff
+> git show --textconv :0x04-more_functions_nested_loops/101-print_number.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/101-print_number.c
+> git cat-file -s 6c93c95e4f8eddbd973f3abf77f84f8c48ed9dff
+> git show --textconv :0x04-more_functions_nested_loops/101-print_number.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :0x04-more_functions_nested_loops/100-prime_factor.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/100-prime_factor.c
+> git cat-file -s 5deb9224a02f0e5f9281f83343a134cb4f5d5007
+> git check-ignore -v -z --stdin
+> git show --textconv :0x02-functions_nested_loops/4-isalpha.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x02-functions_nested_loops/4-isalpha.c
+> git cat-file -s e4855c23a6d145b86ddf06f26dabf28523d352d5
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x02-functions_nested_loops/4-isalpha.c
+> git cat-file -s e7ecb076afce6bcd3c57d09d87653e1acd425262
+> git show --textconv :0x02-functions_nested_loops/4-isalpha.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x02-functions_nested_loops/4-isalpha.c
+> git cat-file -s e7ecb076afce6bcd3c57d09d87653e1acd425262
+> git show --textconv :0x02-functions_nested_loops/4-isalpha.c
+> git status -z -u
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x02-functions_nested_loops/4-isalpha.c
+> git symbolic-ref --short HEAD
+> git cat-file -s e7ecb076afce6bcd3c57d09d87653e1acd425262
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git show --textconv :0x02-functions_nested_loops/4-isalpha.c
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :0x02-functions_nested_loops/9-times_table.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x02-functions_nested_loops/9-times_table.c
+> git cat-file -s ad45b352de45bfa1a1594c4fcb40e0702e69213b
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x02-functions_nested_loops/9-times_table.c
+> git cat-file -s da99560a41927c2710868b11e429184e85ca1b91
+> git show --textconv :0x02-functions_nested_loops/9-times_table.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x02-functions_nested_loops/9-times_table.c
+> git cat-file -s da99560a41927c2710868b11e429184e85ca1b91
+> git show --textconv :0x02-functions_nested_loops/9-times_table.c
+> git status -z -u
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x02-functions_nested_loops/9-times_table.c
+> git symbolic-ref --short HEAD
+> git cat-file -s da99560a41927c2710868b11e429184e85ca1b91
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git show --textconv :0x02-functions_nested_loops/9-times_table.c
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :0x04-more_functions_nested_loops/100-prime_factor.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x04-more_functions_nested_loops/100-prime_factor.c
+> git cat-file -s 5deb9224a02f0e5f9281f83343a134cb4f5d5007
+> git check-ignore -v -z --stdin
+> git show --textconv :0x03-debugging/2-main.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x03-debugging/2-main.c
+> git cat-file -s d34227f38f5aef62de03874c1da2e03ac19193ee
+> git show --textconv :0x03-debugging/2-largest_number.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x03-debugging/2-largest_number.c
+> git cat-file -s eb35d5e7db8269b712566220d46de3ae49d3662a
+> git show --textconv :0x03-debugging/2-largest_number.c
+> git ls-files --stage -- /home/vagrant/holbertonschool-low_level_programming/0x03-debugging/2-largest_number.c
+> git cat-file -s eb35d5e7db8269b712566220d46de3ae49d3662a

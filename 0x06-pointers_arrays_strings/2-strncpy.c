@@ -24,3 +24,12 @@ char *_strncpy(char *dest, char *src, int n)
 
 return (dest);
 }
+ /*
+ * first for statement could be replaced with
+ *
+ * while (src[i] && i < n)
+ *
+ * and it should run just fine with less typing and reading
+ * more clearly.
+ *
+ */

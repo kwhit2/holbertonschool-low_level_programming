@@ -24,7 +24,7 @@ char *_strncat(char *dest, char *src, int n)
 		j++;
 	}
 
-	if (j < n)
+	if (j < n) /*Statement may not be needed. Got correct output w/o it*/
 	*(dest + i) = *(src + j);
 
 return (dest);

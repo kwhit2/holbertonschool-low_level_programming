@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-* _memcpy - copies memory area
+* _memcpy - Function that copies memory area.
 * @dest: memory area for source to be copied to
 * @src: memory are that n bytes are copied from
 * @n: The number of bytes to be copied.

@@ -9,14 +9,24 @@
 */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	/* Typecast src and dest addresses to (char *) */
-	char *csrc = (char *)src;
-	char *cdest = (char *)dest;
-	unsigned int i;
+	unsigned int mem; /* mem = memory */
 
-	/* Copy contents of src[] to dest[] */
-	for (i = 0; i < n; i++)
-	cdest[i] = csrc[i];
-
-	return (dest);
+	for (mem = 0; mem < n; mem++)
+	{
+		*(dest + mem) = *(src + mem);
+	}
+return (dest);
 }
+/*
+* First code and comments below. Code is below COMMENT>
+* COMMENT> Typecast src and dest addresses to (char *)
+* char *csrc = (char *)src;
+* char *cdest = (char *)dest;
+* unsigned int i;
+*
+* COMMENT> Copy contents of src[] to dest[] 
+* for (i = 0; i < n; i++)
+* cdest[i] = csrc[i];
+*
+*return (dest);
+*/

@@ -10,13 +10,23 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	char *p = s;
+	int i;
 
-	while (n > 0)
+	for (i = 0; i < n; i++)
 	{
-	*p = b;
-	p++;
-	n--;
+	*(s + i) = b;
 	}
-	return (s);
+return (s);
 }
+/*
+* Original code below works for checker as well
+* char *p = s;
+*
+* while (n > 0)
+* {
+* *p = b;
+* p++;
+* n--;
+* }
+* return (s);
+*/

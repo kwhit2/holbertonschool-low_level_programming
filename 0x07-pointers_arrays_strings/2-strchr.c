@@ -11,7 +11,7 @@
 char *_strchr(char *s, char c)
 {
 	int i;
-
+/* '\0' below refers to ASCII value 0 and '\0' can be subtituted for 0 */
 	for (i = 0; s[i] >= '\0'; i++)
 	{
 	if (s[i] == c)

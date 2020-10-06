@@ -24,7 +24,7 @@ return (dest);
 * char *cdest = (char *)dest;
 * unsigned int i;
 *
-* COMMENT> Copy contents of src[] to dest[] 
+* COMMENT> Copy contents of src[] to dest[]
 * for (i = 0; i < n; i++)
 * cdest[i] = csrc[i];
 *

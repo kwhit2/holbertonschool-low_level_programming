@@ -10,12 +10,12 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	int i;
+	unsigned int i; /* changed to unsigned int bc it must be same as n */
 
 	for (i = 0; i < n; i++)
 	{
-	*(s + i) = b;
-	}
+	*(s + i) = b; /* s (NOT *s) is address pointer is pointing to */
+	}	/* *(s + i) shifts memory over 1 each time i is incremented */
 return (s);
 }
 /*

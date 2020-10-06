@@ -20,5 +20,5 @@ unsigned int _strspn(char *s, char *accept)
 		if (!accept[k])
 			break;
 	}
-	return (i);
+	return (i); /* number of bytes of s in accept */
 }

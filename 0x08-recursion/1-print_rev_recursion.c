@@ -6,16 +6,15 @@
 */
 void _print_rev_recursion(char *s)
 {
+	/* if we have reached the end of the string */
+	if (*s == '\0')
+	{
+		return;
+	}
 
-/* if we have reached the end of the string */
-if (*s == '\0')
-{
-return;
-}
+	/* recur for next character in the string */
+	_print_rev_recursion(s + 1);
 
-/* recur for next character in the string */
-_print_rev_recursion(s + 1);
-
-/* print current character */
-_putchar(*s);
+	/* print current character */
+	_putchar(*s);
 }

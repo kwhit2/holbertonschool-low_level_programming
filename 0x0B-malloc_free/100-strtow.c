@@ -1,5 +1,6 @@
 #include "holberton.h"
 #include <stdlib.h>
+#include <stdio.h>
 /**
 * **strtow- Function that splits a string into words.
 * @str: string to be split into words
@@ -17,7 +18,7 @@ char **strtow(char *str)
 	int b = 0;
 	int mem = 0;
 	int plc = 0;
-	
+
 	if (str == NULL || *str == '\0')
 		return (NULL);
 	/* This check for number of words, not chars */

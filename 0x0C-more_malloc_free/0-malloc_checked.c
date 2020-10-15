@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
-* create_array- Function that allocates memory using malloc.
+* *malloc_checked- Function that allocates memory using malloc.
 * @b: memory allocated
 *
 * description: Function that allocates memory using malloc.

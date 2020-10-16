@@ -44,10 +44,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	newstr = malloc(_strlen(s1) + n + 1);
 	if (newstr == NULL)
 		return (NULL);
-	for (i = 0, k = 0; s1[i] != '\0'; i++, k++)
+	for (i = 0, k = 0; s1[i] != '\0'; i++, k++)/*getting first string */
 		newstr[k] = s1[i];
-	for (i = 0; i != n; i++, k++)
-		newstr[k] = s2[i];
+	for (i = 0; i != n; i++, k++)/*1ststring stays incremented&nextstarts*/
+		newstr[k] = s2[i]; /*with removing null byte @end of 1ststring*/
 newstr[k] = '\0';
 return (newstr);
 }

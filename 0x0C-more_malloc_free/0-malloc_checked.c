@@ -12,10 +12,10 @@
 */
 void *malloc_checked(unsigned int b)
 {
-	void *ptr;
+	void *ptr; /*can do int/char as well.Not sure if checker would allow*/
 
 	ptr = malloc(b);
-	if (ptr == NULL)
+	if (ptr == NULL) /* or if (!p) */
 		exit(98);
 return (ptr);
 }

@@ -8,13 +8,14 @@
  *
  * Description: Struct with name, age & owner.
  */
-struct dog /* typedef struct dog */
+struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-}; /* } dog_t; */
-
+};
+/* substitue for first line of struct to add: typedef struct dog */
+/* substitue for last line of struct to add new typedef of: } dog_t; */
 typedef struct dog dog_t;
 int _putchar(char c);
 void init_dog(struct dog *d, char *name, float age, char *owner);

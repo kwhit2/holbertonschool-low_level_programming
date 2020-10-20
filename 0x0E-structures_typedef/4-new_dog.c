@@ -45,7 +45,7 @@ char *_strcpy(char *dest, char *src)
 	return (dest);
 }
 /**
- * new_dog- Function that creates a new dog.
+ * new_dog- Function that creates a new dog (structure).
  * @name: name of dog.
  * @age: age of dog.
  * @owner: owner of dog.
@@ -72,5 +72,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 	new_dog->name = copyname;
 	new_dog->owner = copyowner;
 	new_dog->age = age;
+free(copyname);
+free(copyowner);
+free(new_dog);
 return (new_dog);
 }

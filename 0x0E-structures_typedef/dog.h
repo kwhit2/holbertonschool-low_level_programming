@@ -8,12 +8,12 @@
  *
  * Description: Struct with name, age & owner.
  */
-struct dog
+struct dog /* typedef struct dog */
 {
 	char *name;
 	float age;
 	char *owner;
-};
+}; /* } dog_t; */
 
 typedef struct dog dog_t;
 int _putchar(char c);

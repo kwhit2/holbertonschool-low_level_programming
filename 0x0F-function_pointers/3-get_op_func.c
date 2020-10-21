@@ -23,7 +23,7 @@ op_t ops[] = {
 
 	i = 0;
 
-	while (i <= 5)
+	while (i < 5)
 	{
 		if (*s == ops[i].op[0])
 			return (ops[i].f);

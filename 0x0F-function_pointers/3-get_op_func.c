@@ -26,7 +26,7 @@ i = 0;
 
 while (i < 5)
 {
-	if (*s == *ops[i].op)
+	if (strcmp(s, ops[i].op) == 0)
 		return (ops[i].f);
 i++;
 }

@@ -30,6 +30,6 @@ while (i < 5)
 		return (ops[i].f);
 i++;
 }
-printf("Error");
+printf("Error\n");
 exit(99);
 }

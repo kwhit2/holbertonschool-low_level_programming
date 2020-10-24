@@ -10,4 +10,4 @@ _start:
     mov rdi, 1
     mov rsi, message
     mov rdx, 14
-    syscall
+    write

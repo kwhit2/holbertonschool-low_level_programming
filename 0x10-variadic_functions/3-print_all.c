@@ -4,13 +4,14 @@
 #include <string.h>
 #include <stdarg.h>
 /**
-* print_all- function that prints anything
-* @format: a list of types of arguments passed to the function
+* print_all- Function that prints anything
+* @format: const char pointer
 *
 * Return- void
 */
 void print_all(const char * const format, ...)
 {
+
 va_list args;
 unsigned int x;
 
@@ -18,30 +19,27 @@ x = 0;
 
 while (format)
 {
-	va_start(args, format);
-	while (format[x] != '\0')
-	{
-	switch (format[x])
-	{
-		case 'c':
-		printf("%c", va_arg(args, int));
-		break;
-		case 'i':
-		printf("%d", va_arg(args, int));
-		break;
-		case 'f':
-		printf("%f", va_arg(args, double));
-		break;
-		case 's':
-		printf("%s", va_arg(args, char *));
-		break;
+va_start(args, format);
+while (format[x] != '\0')
+{
+switch (format[x])
+{
+case 'c':
+    printf("%c", va_arg(args, int));
+    break;
+case 'i':
+    printf("%d", va_arg(args, int));
+    break;
+case 'f':
+    printf("%f", va_arg(args, double));
+    break;
+case 's':
+    printf("%s", va_arg(args, char *));
+    break;
 default:
-break;
-}
-x++;
-
-if (format[x] == 'c' || format[x] == 'i' || format[x] == 'f'
-|| format[x] == 's')
+    break;
+    }
+if (x++ < 3)
 printf(", ");
 
 }

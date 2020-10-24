@@ -1,13 +1,11 @@
-section .data
+global  _main
+    extern  _printf
 
-    message db "Hello, Holberton", 10
-
-section .text
-
-global _start
-_start:
-    mov rax, 1
-    mov rdi, 1
-    mov rsi, message
-    mov rdx, 14
-    write
+    section .text
+_main:
+    push    message
+    call    _printf
+    add     esp, 4
+    ret
+message:
+    db  'Hello, Holberton', 10, 0

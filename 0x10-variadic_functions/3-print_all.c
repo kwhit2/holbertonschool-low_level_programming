@@ -25,20 +25,20 @@ while (format[x] != '\0')
 switch (format[x])
 {
 case 'c':
-    printf("%c", va_arg(args, int));
-    break;
+	printf("%c", va_arg(args, int));
+	break;
 case 'i':
-    printf("%d", va_arg(args, int));
-    break;
+	printf("%d", va_arg(args, int));
+	break;
 case 'f':
-    printf("%f", va_arg(args, double));
-    break;
+	printf("%f", va_arg(args, double));
+	break;
 case 's':
-    printf("%s", va_arg(args, char *));
-    break;
+	printf("%s", va_arg(args, char *));
+	break;
 default:
-    break;
-    }
+	break;
+	}
 if (x++ < 3)
 printf(", ");
 

@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 #include <stdlib.h>
 #include <stdio.h>
-#include <string.h>
+#include <stddef.h>
 #include <stdarg.h>
 /**
 * print_all- Function that prints anything
@@ -11,17 +11,17 @@
 */
 void print_all(const char * const format, ...)
 {
-
 va_list args;
-unsigned int x;
-
-x = 0;
+unsigned int x = 0;
+int b;
+char *string;
 
 while (format)
 {
 va_start(args, format);
 while (format[x] != '\0')
 {
+b = 1;
 switch (format[x])
 {
 case 'c':
@@ -34,14 +34,18 @@ case 'f':
 	printf("%f", va_arg(args, double));
 	break;
 case 's':
-	printf("%s", va_arg(args, char *));
+	string = va_arg(args, char *);
+	if (!string)
+	string = "(nil)";
+	printf("%s", string);
 	break;
 default:
+	b = 0;
 	break;
-	}
-if (x++ < 3)
+}
+if (format[x + 1] && b)
 printf(", ");
-
+x++;
 }
 va_end(args);
 break;

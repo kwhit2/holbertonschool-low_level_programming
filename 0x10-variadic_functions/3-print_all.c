@@ -18,27 +18,32 @@ x = 0;
 
 while (format)
 {
-va_start(args, format);
-while (format[x] != '\0')
-{
-switch (format[x])
-{
-	case 'c':
-		printf("%c, ", va_arg(args, int));
-			break;
-	case 'i':
-		printf("%d, ", va_arg(args, int));
-			break;
-	case 'f':
-		printf("%f", va_arg(args, double));
-			break;
-	case 's':
-		printf("%s", va_arg(args, char *));
-			break;
-	default:
+	va_start(args, format);
+	while (format[x] != '\0')
+	{
+	switch (format[x])
+	{
+		case 'c':
+		printf("%c", va_arg(args, int));
 		break;
+		case 'i':
+		printf("%d", va_arg(args, int));
+		break;
+		case 'f':
+		printf("%f", va_arg(args, double));
+		break;
+		case 's':
+		printf("%s", va_arg(args, char *));
+		break;
+default:
+break;
 }
 x++;
+
+if (format[x] == 'c' || format[x] == 'i' || format[x] == 'f'
+|| format[x] == 's')
+printf(", ");
+
 }
 va_end(args);
 break;

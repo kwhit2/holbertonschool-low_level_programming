@@ -1,6 +1,6 @@
 section .data
 
-    message db "Hello, world!", 10
+    message db "Hello, Holberton", 10
 
 section .text
 
@@ -11,4 +11,3 @@ _start:
     mov rsi, message
     mov rdx, 14
     syscall
-    

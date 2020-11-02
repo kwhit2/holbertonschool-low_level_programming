@@ -21,9 +21,9 @@ list_t *add_node(list_t **head, const char *str)
 
 	newnode->str = strdup(str);
 	newnode->len = i;
-	newnode->next = (*head);
+	newnode->next = *head;
 
-	(*head) = newnode;
+	*head = newnode;
 
 return (newnode);
 }

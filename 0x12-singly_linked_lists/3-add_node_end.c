@@ -17,7 +17,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	if (newnode == NULL)
 		return (NULL);
 
-	lastnode = (*head);
+	lastnode = (*head); /* see comments below */
 
 	while (str[i] != '\0')
 		i++;
@@ -28,8 +28,8 @@ list_t *add_node_end(list_t **head, const char *str)
 
 	if ((*head) == NULL)
 	{
-		(*head) = newnode;
-		return ((*head));
+		(*head) = newnode; /*parens not needed around *head */
+		return ((*head)); /*but maybe it adds to reability?*/
 	}
 
 	while (lastnode->next != NULL)

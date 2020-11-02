@@ -18,6 +18,7 @@ while (h != NULL)
 		printf("[0] %p\n", h->str);
 	h = h->next;
 	nodecount++;
+
 	else
 	{
 		printf("[%d] %s\n", h->len, h->str);

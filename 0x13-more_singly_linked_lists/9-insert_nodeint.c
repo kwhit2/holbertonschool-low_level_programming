@@ -54,7 +54,7 @@ new = malloc(sizeof(listint_t));
 		if ((idx - 1) == i)
 		{
 			new->n = n;
-			new->next = cpy->next;;
+			new->next = cpy->next;
 			cpy->next = new;
 			return (new);
 		}

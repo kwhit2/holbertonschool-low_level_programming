@@ -11,18 +11,16 @@
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
 
-listint_t *traverse;
-unsigned int i;
+listint_t *cpy = head;
+unsigned int i = 0;
 
-traverse = head;
-
-while (i < index)
+while (i != index)
 {
-	if (traverse->next == NULL)
+	if (cpy->next == NULL)
 		return (NULL);
 	i++;
-	traverse = traverse->next;
+	cpy = cpy->next;
 }
 
-return (traverse);
+return (cpy);
 }

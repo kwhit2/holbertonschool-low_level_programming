@@ -9,8 +9,8 @@ void free_listint2(listint_t **head)
 {
 	listint_t *tmp, *prev;
 
-if (head == NULL)
-return;
+	if (head == NULL)
+	return;
 
 	prev = *head;
 
@@ -20,5 +20,5 @@ return;
 		free(prev);
 		prev = tmp;
 	}
-*head = prev;
+(*head) = prev;
 }

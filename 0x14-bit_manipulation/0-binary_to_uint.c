@@ -25,7 +25,7 @@ int _strlen(const char *s)
 /**
 * binary_to_uint - Function that converts a binary number to an unsigned int.
 * @b: char pointer
-* 
+*
 * Return: the converted number, or 0 if there is one or more chars in the
 * string b that is not 0 or 1 and/or b is NULL.
 */
@@ -39,7 +39,10 @@ unsigned int binary_to_uint(const char *b)
 
 	len = _strlen(b);
 
-	for (c = len-1; c >= 0; c--)
+	if (b == NULL)
+		return (0);
+
+	for (c = len - 1; c >= 0; c--)
 	{
 		if (b[c] != '0' && b[c] != '1')
 			return (0);

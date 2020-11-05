@@ -25,10 +25,10 @@ tmp = *head;
 	{
 		prev = tmp;
 		tmp = tmp->next;
-		i++;
+		i++; 
 	}
 	if (tmp == NULL)
-		return (0);
+		return (-1);
 
 	prev->next = tmp->next;
 	free(tmp);

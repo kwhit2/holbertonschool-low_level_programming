@@ -1,5 +1,26 @@
 #include "holberton.h"
-#include <string.h>
+
+/**
+ * _strlen - Function that returns
+ * the length of a string.
+ * @s: string
+ * Description: Function that returns
+ * the length of a string.
+ * Return: ln
+ *
+ */
+
+int _strlen(const char *s)
+{
+	int ln;
+
+	ln = 0;
+
+	while (s[ln] != '\0')
+		ln++;
+
+	return (ln);
+}
 
 /**
 * binary_to_uint - Function that converts a binary number to an unsigned int.
@@ -11,22 +32,22 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-unsigned int k = 1;
-unsigned int i = 0;
-int c;
-unsigned int len;
+	unsigned int k = 1;
+	unsigned int i = 0;
+	int c;
+	unsigned int len;
 
-len = strlen(b);
+	len = _strlen(b);
 
-for (c = len-1; c >= 0; c--)
-{
-if (b[c] != '0' && b[c] != '1')
-return (0);
-if (b[c] == '1')
-{
-i += k;
-}
-k *= 2;
-}
+	for (c = len-1; c >= 0; c--)
+	{
+		if (b[c] != '0' && b[c] != '1')
+			return (0);
+		if (b[c] == '1')
+		{
+			i += k;
+		}
+	k *= 2;
+	}
 return (i);
 }

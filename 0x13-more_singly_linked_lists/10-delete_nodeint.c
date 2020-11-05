@@ -25,7 +25,7 @@ tmp = *head;
 	{
 		prev = tmp;
 		tmp = tmp->next;
-		i++; 
+		i++;
 	}
 	if (tmp == NULL)
 		return (-1);

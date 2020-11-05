@@ -39,12 +39,12 @@ unsigned int binary_to_uint(const char *b)
 
 	len = _strlen(b);
 
-	if (b == NULL || b[c] != '1' || b[c] != '0')
+	if (b == NULL)
 		return (0);
 
 	for (c = len - 1; c >= 0; c--)
 	{
-		if (b[c] != '0' && b[c] != '1')
+		if (b[c] != '0' || b[c] != '1')
 			return (0);
 		if (b[c] == '1')
 		{

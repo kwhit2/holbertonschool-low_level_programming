@@ -2,7 +2,7 @@
 
 /**
 * set_bit - Function that sets the value of a bit to 1 at a given index.
-* @index: index of bits
+* @index: index of bits to set
 * @n: int
 * Return: 1 if it worked, or -1 if an error occurred
 */

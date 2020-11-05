@@ -14,8 +14,8 @@ unsigned int mask;
 	if (index > 32)
 		return (-1);
 	mask = 1 << index;
-    mask = mask & n;
-    mask = mask >> index;
+	mask = mask & n;
+	mask = mask >> index;
 
 return (mask);
 }

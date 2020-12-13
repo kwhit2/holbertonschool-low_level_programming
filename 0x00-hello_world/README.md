@@ -6,4 +6,4 @@ Task4; C program that prints exactly "Programming is like building a multilingua
 Task5; C program that prints exactly with proper grammar, but the outcome is a piece of art, uses function printf\
 Task6; C program that prints the size of various types on the computer it is compiled and run on.\
 Task8; Script that generates the assembly code of a C code and saves it in an output file with extension .s. The C file name is saved in the variable $CFILE\
-Task 9; C program that prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error. Does not use puts or printf. Returns 1.\
+Task 9; C program that prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error. Does not use puts or printf. Returns 1.

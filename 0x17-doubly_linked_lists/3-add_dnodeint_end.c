@@ -29,7 +29,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	if ((*head) == NULL)
 	{
 	newnode->prev = NULL;
-        (*head) = newnode; /*parens not needed around *head */
+	(*head) = newnode; /*parens not needed around *head */
 		return ((newnode)); /*but maybe it adds to reability?*/
 	}
 	lastnode = (*head);

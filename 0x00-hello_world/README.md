@@ -1,4 +1,4 @@
-0x00-hello_world\
+0x00-hello_world
 
 Task0: Script that runs a C file through the preprocessor and saves the result into another file. The C file name is saved in the variable $CFILE, and the output is saved in the file C\
 Task1: Script that compiles a C file but does not link. The C file name is saved in the variable $CFILE. The output file should be named the same as the C file, but with the extension .o instead of .c\

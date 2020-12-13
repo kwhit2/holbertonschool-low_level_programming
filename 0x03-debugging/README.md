@@ -1,4 +1,4 @@
-0x03-debugging\
+0x03-debugging
 
 Task 0-  this file tests that the function positive_or_negative() gives the correct output when given a case of 0\
 Task 1- commented out code in 1-main.c file is what would cause the output to go into an infinite loop\

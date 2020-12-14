@@ -25,3 +25,12 @@ while (i != index)
 
 return (cpy);
 }
+
+/*
+* declare a copy of head/copy of list
+* while loop itterates through list until position right before index
+* check if next points to null
+* if it does this mean the node at index doesn't exist/is null so return null
+* otherwise set positiion of copy to that of index(nth node)
+* return address
+*/

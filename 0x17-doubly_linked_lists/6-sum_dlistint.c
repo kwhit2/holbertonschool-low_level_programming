@@ -25,3 +25,12 @@ list = head;
 	}
 return (sum);
 }
+
+/*
+* declare copy of the list called list, initialize sum to be 0
+* if the list is empty return 0
+* while the list exists:
+* 1. add n from each node to the sum
+* 2. set the copy/list to the next position to move through the list
+* return sum
+*/

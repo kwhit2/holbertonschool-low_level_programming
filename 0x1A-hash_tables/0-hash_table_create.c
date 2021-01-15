@@ -25,3 +25,15 @@ hash_table_t *hash_table_create(unsigned long int size)
 
 	return (create);
 }
+
+/*
+ * declare hash_table variable to create & set equal to NULL.
+ * if size of the hash table is 0/does not exist return NULL.
+ * malloc size for the new hash table.
+ * check if malloc worked & if not return NULL.
+ * set size of create(new hashtable) equal to the size passed in the prototype.
+ * malloc space (size of a hash node struct) for the array of our...
+ * ...create(new hash table).
+ * check if malloc worked & if not return NULL.
+ * return create(new hash table).
+ */

@@ -21,6 +21,14 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 }
 
 /*
+ * declare a new node variable
+ * if key == NULL, return NULL
+ * for loop: iterate through hash table starting at the beginning
+ * if node->key == key passed to us, return the value at that key
+ * otherwise, return NULL
+ */
+
+/*
 * Below also works
 * {
 *   unsigned long int idx = 0;

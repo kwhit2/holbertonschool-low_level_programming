@@ -25,7 +25,6 @@ hash_table_t *hash_table_create(unsigned long int size)
 
 	return (create);
 }
-
 /*
  * declare hash_table variable to create & set equal to NULL.
  * if size of the hash table is 0/does not exist return NULL.

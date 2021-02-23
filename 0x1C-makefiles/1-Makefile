@@ -1,5 +1,0 @@
-# makes an executable called holberton from holberton.c & main.c
-CC = gcc
-SRC = holberton.c main.c
-all: holberton.c main.c
-	$(CC) $(SRC) -o holberton
